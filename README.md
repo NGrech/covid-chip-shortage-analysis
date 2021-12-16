@@ -7,6 +7,7 @@ This is a group with @rafikhaliqi71.
 ## Running the repo
 
 To install required packages you will first need to install:
+
 - Python 3.8+
 - Poetry
 
@@ -14,7 +15,7 @@ Then you can run ``poetry install`` to install the dependencies.
 
 After installing the dependencies to download the data you will need to CD into the scrips dir and run the data collection scrips you can do this by
 
-```
+```bash
 cd scraping_scripts
 poetry shell
 python automotive_data.py
