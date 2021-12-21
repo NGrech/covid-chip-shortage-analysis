@@ -1,6 +1,6 @@
 # covid-production-analysis
 
-Assignment work for the Data and Society-HT21, a simple investigation into the effects of Covid-19 on the global production and silicon chip shortage using hypothesis testing.
+Assignment work for the Data and Society-HT21, a simple investigation into the effects of Covid-19 on the global production specifically looking into automotive production.
 
 This is a group with @rafikhaliqi71.
 
@@ -24,42 +24,8 @@ python covid_data.py
 
 This will download the data from OICA for 2018 to 2021 (if available, at time of writing 2021 is not) and the complied daily reports from Johns Hopkins' Covids 19 github repo, note this may take some time.
 
-## Automotive Case
+NOTE: The EUROSTATS data and FRED data will not be scraped automatically and need to be added manually.
 
-We wish to understand the effect of the global pandemic on production in the automotive industry.
+## Alalysis of Automotive data
 
-## TODO
-
-(US Automotive analysis)
-
-- OICA DATA
-  - Yearly trend
-  - US Yearly trend
-  - Combine w/ Covid
-- FRED Data
-  - Scrape & clean
-  - Monthly Trend analysis
-  - Combine w/ covid
-  - combine w/ restrictions
-  
-(US Electronics analysis)
-
-- FRED Data
-  - Scrape & clean
-  - Monthly Trend analysis
-  - Combine w/ covid
-  - combine w/ restrictions
-
-(EU Automotive analysis)
-
-- OICA DATA
-  - Yearly trend
-  - US Yearly trend
-  - Combine w/ Covid
-- ACEA Data - loss due to covid, no analysis needed we can just talk about it in slides
-- EuroStat
-  - Identify correct index
-  - Scrape and clean
-  - Monthly Trend analysis
-  - Combine w/ covid
-  - combine w/ restrictions
+This is documented in the notebooks/EDA_automotive.ipbyn notebook.
